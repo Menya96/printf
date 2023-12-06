@@ -107,18 +107,3 @@ int _printf(const char *format, ...)
 	return char_printed;
 	
 }
-
-
-int main(){
-	_printf("tonny\n");
-	_printf("%c\n", 'b');
-	_printf("%s\n", "string");
-	_printf("%d\n", 5000);
-	_printf("%i hex of 45\n", 5);
-	_printf("%%\n");
-	
-	
-
-	return 0;
-
-}
